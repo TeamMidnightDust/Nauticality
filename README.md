@@ -1,6 +1,10 @@
-# Nauticality
-Explore the oceans with submarines, fight against pirates and watch the beautiful glow fish!
-<div align="center">Nauticality is TeamMidnightDust's submission for ModFest 1.17: BGDC  
+
+
+<div align="center"> <h1>Nauticality</h1>
+  
+Explore the oceans with submarines, fight against pirates and watch the beautiful glow fish!  
+  
+Nauticality is TeamMidnightDust's submission for ModFest 1.17: BGDC  
 The mod is focused on enhancing ocean exploration with new blocks, mobs, vehicles and structures.  
 Use the new submarine to view the beautiful glow fish and loot pirate ships that spawn throughout the minecraft world.  
 
