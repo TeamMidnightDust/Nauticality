@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "nauticality:block/cattail_bottom"
+    },
+    "half=upper": {
+      "model": "nauticality:block/cattail_top"
+    }
+  }
+}

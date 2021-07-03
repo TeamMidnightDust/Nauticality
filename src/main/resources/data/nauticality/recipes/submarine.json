@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Y ",
+        "G n",
+        "YY "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_lamp"
+        },
+        "Y": {
+            "item": "minecraft:yellow_concrete"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "nauticality:submarine",
+        "count": 1
+    }
+}

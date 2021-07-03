@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+			{"model": "nauticality:block/algae"},
+			{"model": "nauticality:block/algae", "y": 90},
+			{"model": "nauticality:block/algae", "y": 180},
+			{"model": "nauticality:block/algae", "y": 270}
+		]
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "defaultMap": {
+	"spriteMap": [
+	  {
+		"sprite": "nauticality:block/cattail_bottom",
+		"material": "canvas:low_foliage"
+	  },
+	  {
+		"sprite": "nauticality:block/cattail_top",
+		"material": "canvas:high_foliage"
+	  }
+	]
+  }
+}

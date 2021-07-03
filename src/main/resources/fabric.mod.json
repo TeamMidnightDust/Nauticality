@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "nauticality",
+  "version": "${version}",
+
+  "name": "Nauticality",
+  "description": "Explore the oceans with submarines, fight against pirates and watch the beautiful glow fish!",
+  "authors": [
+    "Motschen",
+    "TeamMidnightDust"
+  ],
+  "contact": {
+    "homepage": "https://www.midnightdust.eu/",
+    "sources": "https://github.com/TeamMidnightDust/Nauticality",
+    "issues": "https://github.com/TeamMidnightDust/Nauticality/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nauticality/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.midnightdust.nauticality.NauticalityMain"
+    ],
+    "client": [
+      "eu.midnightdust.nauticality.NauticalityClient"
+    ]
+  },
+
+  "mixins": [
+    "nauticality.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*",
+    "midnightlib": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jAGnWYHm3r"
+      }
+    }
+  }
+}

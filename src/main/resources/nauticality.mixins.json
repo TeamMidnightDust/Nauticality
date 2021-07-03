@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "eu.midnightdust.nauticality.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "GenerationSettingsAccessorMixin",
+    "MixinLivingEntity",
+    "BoatEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
