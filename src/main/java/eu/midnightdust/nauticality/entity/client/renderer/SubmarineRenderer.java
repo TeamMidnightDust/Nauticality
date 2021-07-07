@@ -37,7 +37,7 @@ public class SubmarineRenderer extends EntityRenderer<SubmarineEntity> implement
         matrixStack.push();
         matrixStack.multiply(Vec3f.POSITIVE_Y.getDegreesQuaternion(180F - yaw));
         matrixStack.multiply(Vec3f.POSITIVE_Y.getDegreesQuaternion(180F));
-        matrixStack.multiply(Vec3f.POSITIVE_Z.getDegreesQuaternion((yaw - entity.prevRoll)*8));
+        //matrixStack.multiply(Vec3f.POSITIVE_Z.getDegreesQuaternion((yaw - entity.prevRoll)*8));
         entity.prevRoll = yaw;
         matrixStack.multiply(Vec3f.POSITIVE_X.getDegreesQuaternion(180.0F + pitch));
         matrixStack.translate(0.0D , -1.75D, -0.5D + (90 + entity.getPitch()) * 0.01f);
