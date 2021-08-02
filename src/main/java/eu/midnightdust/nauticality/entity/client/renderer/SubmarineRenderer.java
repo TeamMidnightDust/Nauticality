@@ -4,6 +4,7 @@ import eu.midnightdust.nauticality.entity.SubmarineEntity;
 import eu.midnightdust.nauticality.entity.client.model.SubmarineModel;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRenderer;
@@ -43,7 +44,7 @@ public class SubmarineRenderer extends EntityRenderer<SubmarineEntity> implement
         matrixStack.translate(0.0D , -1.75D, -0.5D + (90 + entity.getPitch()) * 0.01f);
         matrixStack.scale(1.2f,1.2f,1.2f);
         model.setAngles(entity,tickDelta,0,0,yaw,entity.getPitch());
-        model.render(matrixStack, vertexConsumers.getBuffer(RenderLayer.getEntityCutout(getTexture(entity))), light, 1,1f,1f,1f,1f);
+        model.render(matrixStack, vertexConsumers.getBuffer(RenderLayer.getEntityCutout(getTexture(entity))), light, OverlayTexture.DEFAULT_UV,1f,1f,1f,1f);
         overlay.render(matrixStack,vertexConsumers,light,entity,yaw,0f,tickDelta,0f,yaw,entity.getPitch());
         matrixStack.pop();
     }
