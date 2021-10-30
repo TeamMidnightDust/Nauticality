@@ -1,0 +1,17 @@
+{
+	"itemGroup.nauticality.main": "Nauticality",
+	"item.nauticality.glow_fish_spawn_egg": "Leuchtfisch Spawn-Ei",
+	"item.nauticality.glow_fish_bucket": "Leuchtfischeimer",
+	"entity.nauticality.glow_fish": "Leuchtfisch",
+	"item.nauticality.pirate_spawn_egg": "Piraten Spawn-Ei",
+	"entity.nauticality.pirate": "Pirat",
+	"item.nauticality.submarine": "U-Boot",
+	"entity.nauticality.submarine": "U-Boot",
+	"item.nauticality.eyepatch": "Augenklappe",
+	"item.nauticality.cattail": "Schilf",
+	"item.nauticality.algae": "Alge",
+	"block.nauticality.cattail": "Schilf",
+	"block.nauticality.algae": "Alge",
+	"nauticality.midnightconfig.title": "Nauticality Konfiguration",
+	"nauticality.midnightconfig.pirateShipRate": "Piratenschiff Spawnrate"
+}
